@@ -1,4 +1,4 @@
-const generatePage = (name, github) => {
+module.exports = (name, github) => {
     return `
     <!DOCTYPE html> 
     <html lang="en"> 
@@ -17,5 +17,3 @@ const generatePage = (name, github) => {
     `;
   };
 
-  const generatePage =require('./src/page-template.js');
-  
