@@ -50,6 +50,12 @@ const promptProject = portfolioData => {
     },
     {
       type: 'confirm',
+      name: 'confirmAbout',
+      message: 'Would you like to enter some information about yourself for an "About" section?',
+      defautl: true
+    },
+    {
+      type: 'confirm',
         name: 'feature',
         message: 'Would you like to feature this project?',
         default: false
